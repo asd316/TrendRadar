@@ -32,6 +32,7 @@ crawler:
 
 # 推送模式选择
 # ★改为 incremental (增量模式)：只推送这2小时内新增的，避免重复打扰
+report:
   mode: "incremental" 
   rank_threshold: 10   # 稍微放宽排名，以免错过刚冒头的技术新闻
   sort_by_position_first: false
